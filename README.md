@@ -187,12 +187,19 @@ Written in C++ for the resolver hot path, Python for the tooling around it.
 <div align="center">
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarthakjain004/sarthakjain004/main/profile-3d-contrib/profile-night-view.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sarthakjain004/sarthakjain004/main/profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="my contributions as an animated isometric city" src="https://raw.githubusercontent.com/sarthakjain004/sarthakjain004/main/profile-3d-contrib/profile-night-view.svg" width="88%" />
+</picture>
+
+<br/><br/>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarthakjain004/sarthakjain004/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sarthakjain004/sarthakjain004/output/github-snake.svg" />
   <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/sarthakjain004/sarthakjain004/output/github-snake.svg" width="100%" />
 </picture>
 
-<sub>🐍 regenerated every 12 hours by <a href="https://github.com/sarthakjain004/sarthakjain004/actions">a GitHub Action</a></sub>
+<sub>🏙️ the city and 🐍 the snake are both rebuilt on a schedule by <a href="https://github.com/sarthakjain004/sarthakjain004/actions">GitHub Actions</a> — rendered into this repo, so no third-party host can take them down</sub>
 
 </div>
 
