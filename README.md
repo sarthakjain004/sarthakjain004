@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0d1117,45:1f6feb,100:8957e5&text=Sarthak%20Jain&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=backend%20%C2%B7%20data%20infrastructure%20%C2%B7%20search&descSize=17&descAlignY=57&animation=fadeIn" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0d1117,45:1f6feb,100:8957e5&text=Sarthak%20Jain&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=systems%20%C2%B7%20algorithms%20%C2%B7%20data%20infrastructure&descSize=17&descAlignY=57&animation=fadeIn" width="100%" alt="" />
 
 <a href="https://github.com/sarthakjain004">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3400&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=48&lines=I+build+things+that+scrape%2C+index%2C+and+search.;468%2C376+job+postings.+38+ATS+scrapers.+One+index.;Production+systems+that+run+entirely+on+free+tiers.;Measure%2C+don%27t+assume." alt="" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3400&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=48&lines=Systems%2C+algorithms%2C+and+the+data+underneath+them.;C%2B%2B+resolvers.+Python+pipelines.+TypeScript+physics.;From+Ford-Fulkerson+network+flow+to+vector+search.;I+like+the+part+where+you+have+to+measure+it." alt="" />
 </a>
 
 <br/>
@@ -18,14 +18,16 @@
 
 ## `whoami`
 
-I like problems where the hard part is **the data, not the CRUD** — reverse-engineering an
-undocumented API, proving what an endpoint *actually* returns, and turning a few hundred
-inconsistent sources into one clean shape you can query.
+I build in whichever layer the interesting problem happens to live in. That has meant a DNS
+resolver in C++, a course-allocation solver in graph theory, an N-body simulation in TypeScript,
+and a search index over half a million documents in Python — and the throughline isn't a language
+or a stack, it's a preference for problems where **you can't hand-wave the answer**.
 
-- 🔭 Building **[HeadStart](https://github.com/sarthakjain004/headstart)** — semantic job search read straight from company ATS boards, not LinkedIn
-- ⚙️ Most of my work is **pipelines, scrapers, and retrieval** — Python, LanceDB, GitHub Actions as a compute budget
-- 🧪 I don't trust a claim I haven't measured. Rate limits, pagination, response shapes — hit the endpoint, don't reason about it
-- 💸 Constraint I enjoy: **make it work on the free tier.** 468k-row vector index, nightly pipeline, live search — $0/mo
+- ⚙️ **Systems & networking** — C++ where the hot path matters, Python around it
+- 🧮 **Algorithms & optimization** — network flow, search, simulation; things with a provable shape
+- 🔎 **Data infrastructure & retrieval** — scrapers, pipelines, embeddings, vector search
+- 🤖 **LLM plumbing** — routing, failover, and what the sampling parameters actually do
+- 🧪 I don't trust a claim I haven't measured. Hit the endpoint, run the profiler, read the output
 - 📫 Reach me by opening an issue on any repo
 
 <br/>
@@ -35,9 +37,9 @@ inconsistent sources into one clean shape you can query.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,cpp,ts,java,js,html,css&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,cpp,ts,java,js,html,css&theme=light" />
-  <img  src="https://skillicons.dev/icons?i=python,cpp,ts,java,js,html,css&theme=dark" alt="" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,cpp,java,ts,js,html,css&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,cpp,java,ts,js,html,css&theme=light" />
+  <img  src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,html,css&theme=dark" alt="" />
 </picture>
 <br/>
 <picture>
@@ -54,10 +56,10 @@ inconsistent sources into one clean shape you can query.
 
 <br/><br/>
 
+<img src="https://img.shields.io/badge/Pygame-simulation-39d353?style=flat-square&labelColor=161b22" alt="" />
 <img src="https://img.shields.io/badge/LanceDB-vector_index-1f6feb?style=flat-square&labelColor=161b22" alt="" />
 <img src="https://img.shields.io/badge/Hugging_Face-Spaces_%2B_Datasets-FFD21E?style=flat-square&labelColor=161b22&logo=huggingface&logoColor=FFD21E" alt="" />
 <img src="https://img.shields.io/badge/LiteLLM-router-8957e5?style=flat-square&labelColor=161b22" alt="" />
-<img src="https://img.shields.io/badge/sentence--transformers-embeddings-39d353?style=flat-square&labelColor=161b22" alt="" />
 
 </div>
 
@@ -69,20 +71,15 @@ inconsistent sources into one clean shape you can query.
 <tr>
 <td width="50%" valign="top">
 
-### 🎯 [HeadStart](https://github.com/sarthakjain004/headstart)
+### 🛡️ [CloakDNS](https://github.com/sarthakjain004/CloakDNS)
 
-Job search read **directly from company ATS boards** — earlier and more
-completely than LinkedIn, which employers have to opt into.
+DNS-level tracker blocker with **CNAME uncloaking** — catching trackers
+that hide behind first-party subdomains specifically to slip past
+ordinary blocklists.
 
-`468,376` indexed postings · `38` per-ATS scrapers · `161` ADRs
+C++ on the resolver hot path, Python for the tooling around it.
 
-Natural-language query drives an embedding search; structured filters
-drive a deterministic where-clause. Nightly sharded pipeline on Actions,
-vector index on a free Hugging Face Space.
-
-**[🔍 Search it live →](https://imposeidon-headstart-search.hf.space)**
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/LanceDB-1f6feb?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/DNS-informational?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" />
 
 </td>
 <td width="50%" valign="top">
@@ -92,10 +89,8 @@ vector index on a free Hugging Face Space.
 The game **from inside Liu Cixin's novel**, made playable in a browser.
 
 The physics is real: three suns evolved as a true gravitational N-body
-system with a 4th-order symplectic integrator, energy drift `< 10⁻⁶`
-per millennium. Stable and Chaotic Eras aren't scripted — they *emerge*.
-
-No install, no sign-up, works offline.
+system, 4th-order symplectic integrator, energy drift `< 10⁻⁶` per
+millennium. Stable and Chaotic Eras aren't scripted — they *emerge*.
 
 **[▶ Play it now →](https://sarthakjain004.github.io/three-body-game/)**
 
@@ -106,31 +101,73 @@ No install, no sign-up, works offline.
 <tr>
 <td width="50%" valign="top">
 
+### 🎓 [Professor–Course Assignment](https://github.com/sarthakjain004/Professor-CourseAssignment)
+
+Assigning courses to professors as a **max-flow problem**.
+
+Ford–Fulkerson over a network flow model, with a modified BFS to generate
+alternative solutions and an elective fallback for anyone left short of
+their required load.
+
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/Ford–Fulkerson-8957e5?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/graph_theory-1f6feb?style=flat-square" alt="" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 [HeadStart](https://github.com/sarthakjain004/headstart)
+
+Job search read **directly from company ATS boards**, rather than waiting
+for employers to syndicate to LinkedIn.
+
+`468,376` indexed postings · `38` per-ATS scrapers · `161` ADRs. Natural
+language drives an embedding search, structured filters drive a
+deterministic where-clause.
+
+**[🔍 Search it live →](https://imposeidon-headstart-search.hf.space)**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/LanceDB-1f6feb?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🔀 [llm-router](https://github.com/sarthakjain004/llm-router)
 
-One OpenAI-compatible endpoint, **automatic failover across free-tier
+One OpenAI-compatible endpoint with **automatic failover across free-tier
 LLM APIs** — Gemini, Groq, Cerebras, OpenRouter, NVIDIA NIM.
 
-Self-hosted LiteLLM proxy on ARM64/Docker. One place picks the model and
-holds the keys, so swapping providers is config, not a code change.
+Self-hosted LiteLLM proxy on ARM64/Docker. One place holds the keys, so
+swapping providers is config rather than a code change everywhere.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/LiteLLM-8957e5?style=flat-square" alt="" />
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ [CloakDNS](https://github.com/sarthakjain004/CloakDNS)
+### 🤖 [AI-Engineering](https://github.com/sarthakjain004/AI-Engineering)
 
-DNS-level tracker blocker with **CNAME uncloaking** — catches trackers
-that hide behind first-party subdomains to dodge blocklists.
+A lab notebook for **what the inference knobs actually do** — temperature,
+top-k, top-p, seeds, stop sequences, logprobs.
 
-Written in C++ for the resolver hot path, Python for the tooling around it.
+Plus the unglamorous parts: retry-with-backoff, real cost accounting,
+multi-model comparison, and running models locally.
 
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/DNS-informational?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" /> <img src="https://img.shields.io/badge/LLM_APIs-39d353?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/local_inference-informational?style=flat-square" alt="" />
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+<sub><b>also in here:</b>
+<a href="https://github.com/sarthakjain004/TargetTamer">TargetTamer</a> — a Pygame aim trainer with accuracy stats ·
+<a href="https://github.com/sarthakjain004/CryptoVault">CryptoVault</a> — master-password vault built on <code>cryptography</code> ·
+<a href="https://github.com/sarthakjain004/library_management_system">library_management_system</a> — Flask + SQL with role-based access ·
+<a href="https://github.com/sarthakjain004/OOP-Playground">OOP-Playground</a> — Java fundamentals, generics and exceptions</sub>
+
+</div>
 
 <br/>
 
@@ -209,6 +246,6 @@ Written in C++ for the resolver hot path, Python for the tooling around it.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:8957e5,55:1f6feb,100:0d1117&reversal=true" width="100%" alt="" />
 
-<sub><i>Reading the ATS directly since 2026.</i></sub>
+<sub><i>There is always some half-finished thing in a branch somewhere.</i></sub>
 
 </div>
