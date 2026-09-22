@@ -34,11 +34,23 @@ inconsistent sources into one clean shape you can query.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,ts,java,js,html,css&theme=dark" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,cpp,ts,java,js,html,css&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,cpp,ts,java,js,html,css&theme=light" />
+  <img  src="https://skillicons.dev/icons?i=python,cpp,ts,java,js,html,css&theme=dark" alt="" />
+</picture>
 <br/>
-<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,bash,git,nginx,sqlite&theme=dark" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,githubactions,linux,bash,git,nginx,sqlite&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker,githubactions,linux,bash,git,nginx,sqlite&theme=light" />
+  <img  src="https://skillicons.dev/icons?i=docker,githubactions,linux,bash,git,nginx,sqlite&theme=dark" alt="" />
+</picture>
 <br/>
-<img src="https://skillicons.dev/icons?i=fastapi,flask,pytorch,threejs,vercel,cloudflare&theme=dark" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=fastapi,flask,pytorch,threejs,vercel,cloudflare&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi,flask,pytorch,threejs,vercel,cloudflare&theme=light" />
+  <img  src="https://skillicons.dev/icons?i=fastapi,flask,pytorch,threejs,vercel,cloudflare&theme=dark" alt="" />
+</picture>
 
 <br/><br/>
 
@@ -126,21 +138,45 @@ Written in C++ for the resolver hot path, Python for the tooling around it.
 
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sarthakjain004&theme=github_dark" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sarthakjain004&theme=github_dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sarthakjain004&theme=github_light" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sarthakjain004&theme=github_dark" alt="" />
+</picture>
 
 <br/>
 
-<img height="185" src="https://streak-stats.demolab.com?user=sarthakjain004&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1f6feb&ring=58A6FF&fire=39d353&currStreakLabel=58A6FF&border_radius=8" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=sarthakjain004&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1f6feb&ring=58A6FF&fire=39d353&currStreakLabel=58A6FF&border_radius=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=sarthakjain004&theme=default&hide_border=true&background=FFFFFF&stroke=d0d7de&ring=1f6feb&fire=1a7f37&currStreakLabel=1f6feb&border_radius=8" />
+  <img height="185" src="https://streak-stats.demolab.com?user=sarthakjain004&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1f6feb&ring=58A6FF&fire=39d353&currStreakLabel=58A6FF&border_radius=8" alt="" />
+</picture>
 
 <br/>
 
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sarthakjain004&theme=github_dark" alt="" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sarthakjain004&theme=github_dark" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sarthakjain004&theme=github_dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sarthakjain004&theme=github_light" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sarthakjain004&theme=github_dark" alt="" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sarthakjain004&theme=github_dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sarthakjain004&theme=github_light" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sarthakjain004&theme=github_dark" alt="" />
+</picture>
 
 <br/>
 
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sarthakjain004&theme=github_dark" alt="" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sarthakjain004&theme=github_dark&utcOffset=5.5" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sarthakjain004&theme=github_dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sarthakjain004&theme=github_light" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sarthakjain004&theme=github_dark" alt="" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sarthakjain004&theme=github_dark&utcOffset=5.5" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sarthakjain004&theme=github_light&utcOffset=5.5" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sarthakjain004&theme=github_dark&utcOffset=5.5" alt="" />
+</picture>
 
 </div>
 
